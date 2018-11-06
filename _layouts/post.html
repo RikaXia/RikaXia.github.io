@@ -227,4 +227,26 @@ layout: default
 </style>
 {% endif %}
 
+<!-- Gitalk 评论 start  -->
+
+<!-- Link Gitalk 的支持文件  -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+<div id="gitalk-container"></div>     <script type="text/javascript">
+    var gitalk = new Gitalk({
+
+   	// gitalk的主要参数
+	clientID: `9ad25f0d8624b7b19321`,
+	clientSecret: `44398f8471019987e01d9336b5fcb7089973f082`,
+	repo: `RikaXia/RikaXia.github.io`,
+	owner: 'RikaXia',
+	admin: ['RikaXia'],
+	id: 'auto',
+	distractionFreeMode: true,
+    
+    });
+    gitalk.render('gitalk-container');
+</script> 
+
+<!-- Gitalk end -->
 
