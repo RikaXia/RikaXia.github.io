@@ -200,6 +200,7 @@ export default class Image extends Component {
 }
 ```
 
+
 ## 删除图片： 
 使用splice(index,1)删除当前元素,改变原数组，且更新state
 ```js
