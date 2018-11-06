@@ -1,3 +1,4 @@
+---
 layout:     post   				    # 使用的布局（不需要改）
 title:      React 点击删除列表中对应项 				# 标题 
 subtitle:   React 点击删除列表中对应项 #副标题
@@ -7,6 +8,7 @@ header-img: img/post-bg-2015.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
     - React
+---
 
 # 需求
 本周要实现一个上传图片的功能，简化应用场景：点击上传图片，增加一张图片，hover图片，出现删除按钮，点击删除按钮，删除该图片。
