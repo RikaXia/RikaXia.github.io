@@ -3,7 +3,7 @@ title: Rika Blog
 SEOTitle: RikaXiaXia的博客 | CX Blog
 header-img: img/post-bg-desk.jpg
 email: RikaTanxia@hotmail.com@gmail.com
-description: "Every failure is leading towards success."
+description: "天青色等烟雨，而我在等你"
 keyword: "CX, CX Blog, RikaXia的博客, tanchunxia, 谭春霞, web前端, React, CSS"
 url: "http://RikaXia.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -11,7 +11,7 @@ github_repo: "https://github.com/RikaXia/RikaXia.github.io.git" # you code repos
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
+sidebar-about-description: "Where are you going"
 sidebar-avatar: /img/avatar_g.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
