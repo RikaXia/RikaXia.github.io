@@ -11,7 +11,7 @@ github_repo: "https://github.com/RikaXia/RikaXia.github.io.git" # you code repos
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Where are you going"
+sidebar-about-description: "where'd you wanna go? How much you wanna risk?"
 sidebar-avatar: /img/avatar_g.JPG      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
