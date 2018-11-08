@@ -4,7 +4,7 @@ title:      create-react-app+mobx入门初体验
 subtitle:   create-react-app配置装饰器环境
 date:       2018-11-07
 author:     Rika
-header-img: img/3.jpg
+header-img: img/post-bg-keybord.jpg
 catalog: true
 tags:
     - React
