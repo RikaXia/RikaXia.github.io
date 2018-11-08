@@ -224,7 +224,7 @@ export default class Father extends Component {
 
   render() {
     return (
-     <Upload vm={vm}/>
+     <Child vm={vm}/>
     )
   }
 }
