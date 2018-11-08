@@ -7,7 +7,7 @@ author:     Rika
 header-img: img/post-bg-keybord.jpg
 catalog: true
 tags:
-    - React
+    - mobx
 ---  
   
 # 前言
