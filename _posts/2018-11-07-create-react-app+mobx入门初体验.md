@@ -612,3 +612,44 @@ class PictureResources extends Component {
 
 export default PictureResources
 ```
+# 7.使用@inject注入
+为了更方便数据管理，我们使用@inject将数据注入，首先找寻根组件，例如APP.js,我们引入mox-react中的Provider作为根容器，再将我们的所有数据引入到APP组件中，营造一种把数据放到全局统一调配的感觉。如果子组件需要的到store数据的话，再按需注入（@inject）如下代码：
+
+```js
+import React, {Component} from 'react';
+// styles
+import './scss/style.scss';
+// store
+import {Provider} from 'mobx-react';
+import store from './store/store.js';
+
+class App extends Component {
+  render() {
+    return (
+      <Provider store={store}>
+        <div className="panel"></div>
+      </Provider>
+    );
+  }
+}
+
+export default App;
+```
+在需要的子组件中注入数据，注意"store"使用**引号**注入，代码如下：
+
+```js
+import React, {Component} from 'react';
+import {inject, observer} from 'mobx-react';
+
+@inject("store")
+@observer
+class Upload extends Component {
+  render() {
+    return (
+      <div></div>
+    )
+  }
+}
+
+export default Upload;
+```
